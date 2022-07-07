@@ -12,6 +12,7 @@ func main() {
 		ctx.HTML(http.StatusOK, "<h1>hello world<h1>")
 	})
 
+	// 格式：/hello?name=xxx
 	r.GET("/hello", func(ctx *engine.Context) {
 		ctx.String(http.StatusOK, "hello %s, you're at %s\n", ctx.Query("name"), ctx.Path)
 	})
