@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d58034-5c97-4a7b-a281-9fbdcc5d1240" name="变更" comment="">
+    <list default="true" id="39c57081-fdee-4d2a-99d2-755782d72413" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/engine/router_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/trie.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/trie_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/engine/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/engine/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
@@ -21,11 +33,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BbCxdswCThTFelqvd9oCGGjkQr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -35,8 +51,9 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build learning/GoWeb">
     <configuration name="go build learning/GoWeb" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoWeb" />
       <working_directory value="$PROJECT_DIR$" />
@@ -46,14 +63,61 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="learning/GoWeb/engine 中的 TestInsertNode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoWeb" />
+      <working_directory value="$PROJECT_DIR$/engine" />
+      <kind value="PACKAGE" />
+      <package value="learning/GoWeb/engine" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestInsertNode\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="learning/GoWeb/engine 中的 TestParsePattern" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoWeb" />
+      <working_directory value="$PROJECT_DIR$/engine" />
+      <kind value="PACKAGE" />
+      <package value="learning/GoWeb/engine" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestParsePattern\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="learning/GoWeb/engine 中的 TestSearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoWeb" />
+      <working_directory value="$PROJECT_DIR$/engine" />
+      <kind value="PACKAGE" />
+      <package value="learning/GoWeb/engine" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSearch\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go 构建.go build learning/GoWeb" />
+        <item itemvalue="Go 测试.learning/GoWeb/engine 中的 TestSearch" />
+        <item itemvalue="Go 测试.learning/GoWeb/engine 中的 TestInsertNode" />
+        <item itemvalue="Go 测试.learning/GoWeb/engine 中的 TestParsePattern" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
